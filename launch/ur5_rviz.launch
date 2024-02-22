@@ -1,0 +1,5 @@
+<launch>
+  <node name="rviz" pkg="rviz" type="rviz" respawn="false" output="screen" args="-d $(find ur_control)/launch/example_rviz_config.rviz"/>
+  <!--<node pkg="ur_control" type="add_frame.py" name="broadcaster_fixed" />	 -->
+  <!--<node pkg="ur_control" type="tf_listener.py" name="frame_listener" />  -->
+</launch>
